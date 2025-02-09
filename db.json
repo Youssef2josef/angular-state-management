@@ -1,0 +1,26 @@
+{
+    "login": {
+        "id": 1,
+        "userName": "youssef",
+        "password": "xxxx"
+    },
+    "studentsRecords": [
+        {
+          "name": "Youssef",
+          "id": 1,
+          "phone": "+216 55 555 555",
+          "country": "Tunisia",
+          "date": "14 Nov 2000",
+          "passportDeclaration": "Yes",
+          "fitnessDeclaration": "Yes",
+          "courseName": "Computer Science",
+          "subjects": "Maths",
+          "street": "Tunis",
+          "address2": "Tunis",
+          "city": "Tunis",
+          "email": "u1fzV@example.com",
+          "postalCode": "2051",
+          "state": "Tunis"
+      }
+    ]
+}
