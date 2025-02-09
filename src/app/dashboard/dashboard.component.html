@@ -1,0 +1,22 @@
+<mat-toolbar>
+	<button mat-mini-fab color="primary" routerLink ="/login" class="home-button mat-button">
+		<mat-icon>home</mat-icon>
+	</button>
+	<span>Student Management With NGRX</span>
+	<span class="example-spacer"></span>
+	<button mat-raised-button color="primary" [matBadge]=" nickName " matBadgeColor="accent" 
+	[matBadgeHidden]="!userName" matBadgePosition="before">
+        {{ userName.toUpperCase() }}
+    </button>
+	<button mat-icon-button color="primary" class="example-icon" aria-label="Example icon-button with share icon" (click)="logout()">
+	  <mat-icon>logout</mat-icon>
+	</button>
+</mat-toolbar>
+<mat-tab-group>
+    <mat-tab label="View students"> 
+		<app-students-table></app-students-table>
+	</mat-tab>
+    <mat-tab label="Add student">
+		<app-student-records></app-student-records>
+	</mat-tab>
+</mat-tab-group>
